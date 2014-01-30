@@ -11,7 +11,6 @@ function __autoload($classe)
 		include_once "app.ado/{$classe}.class.php";
 	}
 }
-
 //Criar critéria de seleção e dados
 $criteria = new TCriteria;
 $criteria -> add(new TFilter('id', '=', '2'));

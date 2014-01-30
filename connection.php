@@ -11,7 +11,6 @@ function __autoload($classe)
 		include_once "app.ado/{$classe}.class.php";
 	}
 }
-
 //Instanciar o select
 $sql = new TSqlSelect;
 //definir o nome da entidade
